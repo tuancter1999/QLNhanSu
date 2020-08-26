@@ -88,7 +88,7 @@ namespace QLNhanSu
 
         private void uC_NhanVien1_Load(object sender, EventArgs e)
         {
-
+            //a Tuân Idol
         }
     }
 }
