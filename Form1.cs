@@ -83,7 +83,7 @@ namespace QLNhanSu
         private void  timer1_Tick(object sender, EventArgs e)
         {
             DateTime dt = DateTime.Now;
-            lableTime.Text = dt.ToString("dd/MM/yyyy");
+            lableTime.Text = dt.ToString("HH:mm:ss");
         }
 
         private void uC_NhanVien1_Load(object sender, EventArgs e)

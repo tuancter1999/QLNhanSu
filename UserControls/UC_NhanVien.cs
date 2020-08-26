@@ -31,8 +31,7 @@ namespace QLNhanSu.UserControls
 
         private void btnTimKiem_Click(object sender, EventArgs e)
         {
-            String sql = "select * from NhanVien where 1=1 ";
-            if(/*textbox caanf tim ay*/!= null)
+           
         }
     }  
 

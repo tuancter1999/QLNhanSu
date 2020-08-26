@@ -22,5 +22,4 @@ C:\Users\HL94NVT\source\repos\QLNhanSu\QLNhanSu\bin\Debug\BUL.pdb
 C:\Users\HL94NVT\source\repos\QLNhanSu\QLNhanSu\bin\Debug\BUL.exe.config
 C:\Users\HL94NVT\source\repos\QLNhanSu\QLNhanSu\bin\Debug\DAL.pdb
 C:\Users\HL94NVT\source\repos\QLNhanSu\QLNhanSu\bin\Debug\DAL.exe.config
-C:\Users\HL94NVT\source\repos\QLNhanSu\QLNhanSu\obj\Debug\QLNhanSu.Form2.resources
 C:\Users\HL94NVT\source\repos\QLNhanSu\QLNhanSu\obj\Debug\QLNhanSu.UserControl1.resources

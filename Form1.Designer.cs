@@ -31,6 +31,7 @@
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.panel1 = new System.Windows.Forms.Panel();
+            this.lableTime = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2Button7 = new Guna.UI2.WinForms.Guna2Button();
             this.btnCong = new Guna.UI2.WinForms.Guna2Button();
             this.btnCongTac = new Guna.UI2.WinForms.Guna2Button();
@@ -42,9 +43,9 @@
             this.guna2Elipse1 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.panel2 = new System.Windows.Forms.Panel();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
-            this.uC_NhanVien1 = new QLNhanSu.UserControls.UC_NhanVien();
-            this.lableTime = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
+            this.uC_NhanVien1 = new QLNhanSu.UserControls.UC_NhanVien();
+            this.guna2HtmlLabel1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.imgSlide)).BeginInit();
             this.panel2.SuspendLayout();
@@ -52,6 +53,7 @@
             // 
             // panel1
             // 
+            this.panel1.Controls.Add(this.guna2HtmlLabel1);
             this.panel1.Controls.Add(this.lableTime);
             this.panel1.Controls.Add(this.guna2Button7);
             this.panel1.Controls.Add(this.btnCong);
@@ -66,6 +68,17 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(207, 681);
             this.panel1.TabIndex = 0;
+            // 
+            // lableTime
+            // 
+            this.lableTime.BackColor = System.Drawing.Color.Transparent;
+            this.lableTime.Font = new System.Drawing.Font("Times New Roman", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lableTime.ForeColor = System.Drawing.Color.White;
+            this.lableTime.Location = new System.Drawing.Point(53, 53);
+            this.lableTime.Name = "lableTime";
+            this.lableTime.Size = new System.Drawing.Size(135, 33);
+            this.lableTime.TabIndex = 8;
+            this.lableTime.Text = "HH:MM:ss";
             // 
             // guna2Button7
             // 
@@ -94,7 +107,7 @@
             this.btnCong.CheckedState.Parent = this.btnCong;
             this.btnCong.CustomImages.Parent = this.btnCong;
             this.btnCong.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(118)))), ((int)(((byte)(212)))));
-            this.btnCong.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCong.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCong.ForeColor = System.Drawing.Color.White;
             this.btnCong.HoverState.Parent = this.btnCong;
             this.btnCong.Location = new System.Drawing.Point(6, 532);
@@ -117,7 +130,7 @@
             this.btnCongTac.CheckedState.Parent = this.btnCongTac;
             this.btnCongTac.CustomImages.Parent = this.btnCongTac;
             this.btnCongTac.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(118)))), ((int)(((byte)(212)))));
-            this.btnCongTac.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCongTac.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCongTac.ForeColor = System.Drawing.Color.White;
             this.btnCongTac.HoverState.Parent = this.btnCongTac;
             this.btnCongTac.Location = new System.Drawing.Point(6, 450);
@@ -140,7 +153,7 @@
             this.btnTrinhDo.CheckedState.Parent = this.btnTrinhDo;
             this.btnTrinhDo.CustomImages.Parent = this.btnTrinhDo;
             this.btnTrinhDo.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(118)))), ((int)(((byte)(212)))));
-            this.btnTrinhDo.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnTrinhDo.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnTrinhDo.ForeColor = System.Drawing.Color.White;
             this.btnTrinhDo.HoverState.Parent = this.btnTrinhDo;
             this.btnTrinhDo.Location = new System.Drawing.Point(6, 368);
@@ -163,7 +176,7 @@
             this.btnPhongBan.CheckedState.Parent = this.btnPhongBan;
             this.btnPhongBan.CustomImages.Parent = this.btnPhongBan;
             this.btnPhongBan.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(118)))), ((int)(((byte)(212)))));
-            this.btnPhongBan.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnPhongBan.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnPhongBan.ForeColor = System.Drawing.Color.White;
             this.btnPhongBan.HoverState.Parent = this.btnPhongBan;
             this.btnPhongBan.Location = new System.Drawing.Point(6, 286);
@@ -186,7 +199,7 @@
             this.btnChucVu.CheckedState.Parent = this.btnChucVu;
             this.btnChucVu.CustomImages.Parent = this.btnChucVu;
             this.btnChucVu.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(118)))), ((int)(((byte)(212)))));
-            this.btnChucVu.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnChucVu.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnChucVu.ForeColor = System.Drawing.Color.White;
             this.btnChucVu.HoverState.Parent = this.btnChucVu;
             this.btnChucVu.Location = new System.Drawing.Point(6, 204);
@@ -220,7 +233,7 @@
             this.btnNhanVien.CheckedState.Parent = this.btnNhanVien;
             this.btnNhanVien.CustomImages.Parent = this.btnNhanVien;
             this.btnNhanVien.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(118)))), ((int)(((byte)(212)))));
-            this.btnNhanVien.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnNhanVien.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnNhanVien.ForeColor = System.Drawing.Color.White;
             this.btnNhanVien.HoverState.Parent = this.btnNhanVien;
             this.btnNhanVien.Location = new System.Drawing.Point(6, 122);
@@ -254,6 +267,10 @@
             // 
             this.openFileDialog1.FileName = "openFileDialog1";
             // 
+            // timer1
+            // 
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
+            // 
             // uC_NhanVien1
             // 
             this.uC_NhanVien1.BackColor = System.Drawing.Color.White;
@@ -263,22 +280,17 @@
             this.uC_NhanVien1.Name = "uC_NhanVien1";
             this.uC_NhanVien1.Size = new System.Drawing.Size(1004, 667);
             this.uC_NhanVien1.TabIndex = 0;
-            this.uC_NhanVien1.Load += new System.EventHandler(this.uC_NhanVien1_Load);
             // 
-            // lableTime
+            // guna2HtmlLabel1
             // 
-            this.lableTime.BackColor = System.Drawing.Color.Transparent;
-            this.lableTime.Font = new System.Drawing.Font("Times New Roman", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lableTime.ForeColor = System.Drawing.Color.White;
-            this.lableTime.Location = new System.Drawing.Point(47, 36);
-            this.lableTime.Name = "lableTime";
-            this.lableTime.Size = new System.Drawing.Size(135, 33);
-            this.lableTime.TabIndex = 8;
-            this.lableTime.Text = "HH:MM:ss";
-            // 
-            // timer1
-            // 
-            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
+            this.guna2HtmlLabel1.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel1.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2HtmlLabel1.ForeColor = System.Drawing.Color.White;
+            this.guna2HtmlLabel1.Location = new System.Drawing.Point(81, 17);
+            this.guna2HtmlLabel1.Name = "guna2HtmlLabel1";
+            this.guna2HtmlLabel1.Size = new System.Drawing.Size(63, 28);
+            this.guna2HtmlLabel1.TabIndex = 9;
+            this.guna2HtmlLabel1.Text = "Time:";
             // 
             // Form1
             // 
@@ -317,6 +329,7 @@
         private System.Windows.Forms.OpenFileDialog openFileDialog1;
         private Guna.UI2.WinForms.Guna2HtmlLabel lableTime;
         private System.Windows.Forms.Timer timer1;
+        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel1;
     }
 }
 
