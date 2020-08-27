@@ -36,6 +36,9 @@
     <Reference Include="Guna.UI2">
       <HintPath>..\..\..\..\Desktop\Guna.UI2_WinForms_v2.0.0.8\lib\net40\Guna.UI2.dll</HintPath>
     </Reference>
+    <Reference Include="itextsharp, Version=5.5.13.1, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <HintPath>..\packages\iTextSharp.5.5.13.1\lib\itextsharp.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.VisualBasic" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -135,6 +138,7 @@
     <EmbeddedResource Include="UserControls\UC_PhongBan.resx">
       <DependentUpon>UC_PhongBan.cs</DependentUpon>
     </EmbeddedResource>
+    <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -152,6 +156,10 @@
     <ProjectReference Include="..\BUL\BUL.csproj">
       <Project>{2B0F2A61-4C73-4D90-9668-CE713B4B2CD7}</Project>
       <Name>BUL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DTO\DTO.csproj">
+      <Project>{A8FE12F3-3D84-4053-B5A9-30B02E415486}</Project>
+      <Name>DTO</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

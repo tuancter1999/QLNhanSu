@@ -23,3 +23,8 @@ C:\Users\HL94NVT\source\repos\QLNhanSu\QLNhanSu\bin\Debug\BUL.exe.config
 C:\Users\HL94NVT\source\repos\QLNhanSu\QLNhanSu\bin\Debug\DAL.pdb
 C:\Users\HL94NVT\source\repos\QLNhanSu\QLNhanSu\bin\Debug\DAL.exe.config
 C:\Users\HL94NVT\source\repos\QLNhanSu\QLNhanSu\obj\Debug\QLNhanSu.UserControl1.resources
+C:\Users\HL94NVT\source\repos\QLNhanSu\QLNhanSu\bin\Debug\DTO.exe
+C:\Users\HL94NVT\source\repos\QLNhanSu\QLNhanSu\bin\Debug\DTO.pdb
+C:\Users\HL94NVT\source\repos\QLNhanSu\QLNhanSu\bin\Debug\DTO.exe.config
+C:\Users\HL94NVT\source\repos\QLNhanSu\QLNhanSu\bin\Debug\itextsharp.dll
+C:\Users\HL94NVT\source\repos\QLNhanSu\QLNhanSu\bin\Debug\itextsharp.xml
